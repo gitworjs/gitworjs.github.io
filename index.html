@@ -1,1 +1,39 @@
-new world1212121
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GITWORJS</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>제목 : HTML</h1>
+        ==============
+        <ol>
+            1. 순서가 있는 항목  
+            <ul>
+                1. 순서가 있는 항목
+            </ul>
+        </ol>
+
+        <li>
+            순서가 있는 항목
+        </li>
+
+        <a href="http://www.naver.com">네이버</a>
+        <p id="num"></p>
+        <button onclick="displayGreeting('5')">인사하기</button>
+
+        <script>
+            function displayGreeting(name) {
+                // greet 함수 호출하여 결과 가져오기
+                var greeting = num(name);
+                // p 태그의 내용 설정
+                document.getElementById("num").textContent = greeting;
+            }
+        </script>
+
+    </body>
+
+
+</html>
